@@ -1,11 +1,9 @@
 {
-    "name": "nearby-pwa",
-    "version": "1.0.0",
-    "description": "Local Services Progressive Web App",
     "scripts": {
-        "start": "echo 'Open with Live Server'"
+        "build": "echo 'Static site - no build required'",
+        "start": "npx http-server public"
     },
-    "keywords": ["pwa", "services"],
-    "author": "Your Name",
-    "license": "MIT"
+    "devDependencies": {
+        "http-server": "^14.1.0"
+    }
 }
