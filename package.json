@@ -1,0 +1,11 @@
+{
+    "name": "nearby-pwa",
+    "version": "1.0.0",
+    "description": "Local Services Progressive Web App",
+    "scripts": {
+        "start": "echo 'Open with Live Server'"
+    },
+    "keywords": ["pwa", "services"],
+    "author": "Your Name",
+    "license": "MIT"
+}
