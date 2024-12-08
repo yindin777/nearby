@@ -1,9 +1,17 @@
 {
+    "name": "nearby-pwa",
+    "version": "1.0.0",
+    "description": "Local Services PWA",
     "scripts": {
-        "build": "echo 'Static site - no build required'",
-        "start": "npx http-server public"
+        "build": "npx tailwindcss -i ./src/css/input.css -o ./public/css/output.css",
+        "start": "npx http-server public",
+        "watch": "npx tailwindcss -i ./src/css/input.css -o ./public/css/output.css --watch"
     },
+    "keywords": ["pwa", "services", "cloudflare"],
+    "author": "Your Name",
+    "license": "MIT",
     "devDependencies": {
-        "http-server": "^14.1.0"
+        "http-server": "^14.1.0",
+        "tailwindcss": "^3.3.5"
     }
 }
